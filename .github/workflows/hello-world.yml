@@ -11,4 +11,3 @@ jobs:
     steps: # список шагов, которые надо выполнить
       # run – произвольная bash-команда
       - run: echo "Hello"
-      - run: make say-hello
