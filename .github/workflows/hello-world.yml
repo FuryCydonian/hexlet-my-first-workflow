@@ -5,9 +5,10 @@ on: push
 jobs:
   # build – произвольно выбранное имя задания
   # их может быть больше одного
-  build:
+  hello:
     # операционная система для работы воркфлоу
     runs-on: ubuntu-latest
     steps: # список шагов, которые надо выполнить
       # run – произвольная bash-команда
+      - run: echo "Hello"
       - run: make say-hello
